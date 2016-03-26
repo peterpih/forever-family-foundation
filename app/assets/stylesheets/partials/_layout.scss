@@ -14,13 +14,21 @@ body {
   margin-right:auto;
 }
 
-#logo {
-  height: 90px; // allow for logo
-  background:#000 image_url('header.jpg') no-repeat top;
-  a {
-    display:block;
-    height: 90px;
-  }
+// #logo {
+//   height: 90px; // allow for logo
+//   background:#000 image_url('header.jpg') no-repeat top;
+//   a {
+//     display:block;
+//     height: 90px;
+//   }
+// }
+
+#logo-banner {
+  //height: 90px; // allow for logo
+  //background:#000 image_url('header.jpg') no-repeat top;
+  //display:block;
+  width: 100%;
+  height: auto;
 }
 
 .float-left {
