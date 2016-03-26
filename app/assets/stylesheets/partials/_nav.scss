@@ -19,12 +19,13 @@
   float:left;
   margin-top:0;
   margin-right:$padd-sides*2;
+  width: 100%;
 
   li {
     @include inline-block;
     margin:0;
     padding:$padd-top ($padd-top - 5px) 0 0 /*5px*/;
-    background:image_url('nav-dot.gif') no-repeat right 25px;
+    //background:image_url('nav-dot.gif') no-repeat right 25px;
 //    border: 1px solid black;
     &.first {
       padding-left:0;
