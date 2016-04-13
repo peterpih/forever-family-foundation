@@ -1,6 +1,6 @@
 class Export < ActiveRecord::Base
   paperclip_opts = {}
-  if Rails.env.production?
+  if Rails.env.production? || Rails.env.development?
     paperclip_opts.merge!({
       storage: :s3,
       s3_credentials: {

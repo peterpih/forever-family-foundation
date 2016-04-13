@@ -44,7 +44,6 @@ ForeverFamilyFoundation::Application.routes.draw do
   get '/bookreview' => 'redirects#recommended_books'
   get '/images/GuestHouse/TheGuestHouse-brochure' => 'redirects#guest_house_brochure'
 
-
   resources :users do
     get :confirm
     put :confirm

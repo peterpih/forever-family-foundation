@@ -1,4 +1,5 @@
 class RedirectsController < ApplicationController
+
   def home_page
       redirect_to :root, :status => :moved_permanently
   end
@@ -27,3 +28,4 @@ class RedirectsController < ApplicationController
     redirect_to "http://s3.amazonaws.com/fff_attached_files/attached_files/attachments/000/000/671/original/sitemap_forever.xml?2016" #, :status => :moved_permanently
   end
 end
+
